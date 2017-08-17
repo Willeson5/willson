@@ -1,0 +1,246 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/yinghua.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/yinghua.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/move.css">
+
+    <style>
+            *{
+                margin: 0%;
+                padding: 0%;
+            }
+            body{
+                background-image: url("image/yinghua-bg.jpg");
+
+            }
+            h2{
+                position: absolute;
+                top:20%;
+                left: 5%;
+                font-family: 华文行楷;
+            }
+            h4{
+                position: absolute;
+                top:28%;
+                left: 5%;
+                font-family: 华文行楷;
+            }
+
+            #piano-spectrum{
+                position: absolute;
+                top:1%;
+                left: 30%;
+                width: 40%;
+                height: 60%;
+                background-image: url("image/泡沫.jpg");
+                display: none;
+                opacity: 0.8;
+            }
+
+    </style>
+</head>
+<body>
+<div class="cherry">
+    <img id="yinghua" src="image/yinghua.png" alt="" >
+
+</div>
+<script>
+    $(function(){
+        $('.cherry').Cherry_Blossoms({
+            is_Cherry:true,//是否生成樱花
+            image_min:10,//花瓣最小宽度和高度
+            image_max:50,//花瓣最大宽度和高度
+            time_min:10000,//花瓣最快下坠时间
+            time_max:20000,//花瓣最慢下坠时间
+            interval:500//花瓣生成时间间隔
+        })
+    })
+</script>
+<h2>简易钢琴小游戏<br>
+  参与制作：Willeson，forhappiness<br></h2>
+<h4>
+    m召唤乐谱<br>
+    n关闭乐谱
+</h4>
+
+
+<audio class="play1" src="" autoplay controls style="width: 0px;height: 0px;opacity: 0"></audio>
+<audio class="play2" src="" autoplay controls style="width: 0px;height: 0px;opacity: 0"></audio>
+<audio class="play3" src="" autoplay controls style="width: 0px;height: 0px;opacity: 0"></audio>
+<audio class="play4" src="" autoplay controls style="width: 0px;height: 0px;opacity: 0"></audio>
+<audio class="play5" src="" autoplay controls style="width: 0px;height: 0px;opacity: 0"></audio>
+<audio class="play6" src="" autoplay controls style="width: 0px;height: 0px;opacity: 0"></audio>
+<audio class="play7" src="" autoplay controls style="width: 0px;height: 0px;opacity: 0"></audio>
+<audio class="play8" src="" autoplay controls style="width: 0px;height: 0px;opacity: 0"></audio>
+<audio class="play9" src="" autoplay controls style="width: 0px;height: 0px;opacity: 0"></audio>
+<audio class="play10" src="" autoplay controls style="width: 0px;height: 0px;opacity: 0"></audio>
+<audio class="play11" src="" autoplay controls style="width: 0px;height: 0px;opacity: 0"></audio>
+<audio class="play12" src="" autoplay controls style="width: 0px;height: 0px;opacity: 0"></audio>
+<audio class="play13" src="" autoplay controls style="width: 0px;height: 0px;opacity: 0"></audio>
+<audio class="play14" src="" autoplay controls style="width: 0px;height: 0px;opacity: 0"></audio>
+<audio class="play15" src="" autoplay controls style="width: 0px;height: 0px;opacity: 0"></audio>
+<audio class="play16" src="" autoplay controls style="width: 0px;height: 0px;opacity: 0"></audio>
+<audio class="play17" src="" autoplay controls style="width: 0px;height: 0px;opacity: 0"></audio>
+<audio class="play18" src="" autoplay controls style="width: 0px;height: 0px;opacity: 0"></audio>
+<audio class="play19" src="" autoplay controls style="width: 0px;height: 0px;opacity: 0"></audio>
+<audio class="play20" src="" autoplay controls style="width: 0px;height: 0px;opacity: 0"></audio>
+<audio class="play21" src="" autoplay controls style="width: 0px;height: 0px;opacity: 0"></audio>
+
+<div id="piano-spectrum" style="width: 750px;height: 750px"></div>
+<div class="all">
+<div class="move1"></div>
+<div class="move2"></div>
+<div class="move3"></div>
+<div class="move4"></div>
+<div class="move5"></div>
+<div class="move6"></div>
+<div class="move7"></div>
+
+<div class="move8"></div>
+<div class="move9"></div>
+<div class="move10"></div>
+<div class="move11"></div>
+<div class="move12"></div>
+<div class="move13"></div>
+<div class="move14"></div>
+
+<div class="move15"></div>
+<div class="move16"></div>
+<div class="move17"></div>
+<div class="move18"></div>
+<div class="move19"></div>
+<div class="move20"></div>
+<div class="move21"></div>
+</div>
+<script src="js/piano.js"></script>
+</body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/yinghua.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/yinghua.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/move.css">
+
+    <style>
+            *{
+                margin: 0%;
+                padding: 0%;
+            }
+            body{
+                background-image: url("image/yinghua-bg.jpg");
+
+            }
+            h2{
+                position: absolute;
+                top:20%;
+                left: 5%;
+                font-family: 华文行楷;
+            }
+            h4{
+                position: absolute;
+                top:28%;
+                left: 5%;
+                font-family: 华文行楷;
+            }
+
+            #piano-spectrum{
+                position: absolute;
+                top:1%;
+                left: 30%;
+                width: 40%;
+                height: 60%;
+                background-image: url("image/泡沫.jpg");
+                display: none;
+                opacity: 0.8;
+            }
+
+    </style>
+</head>
+<body>
+<div class="cherry">
+    <img id="yinghua" src="image/yinghua.png" alt="" >
+
+</div>
+<script>
+    $(function(){
+        $('.cherry').Cherry_Blossoms({
+            is_Cherry:true,//是否生成樱花
+            image_min:10,//花瓣最小宽度和高度
+            image_max:50,//花瓣最大宽度和高度
+            time_min:10000,//花瓣最快下坠时间
+            time_max:20000,//花瓣最慢下坠时间
+            interval:500//花瓣生成时间间隔
+        })
+    })
+</script>
+<h2>简易钢琴小游戏<br>
+  参与制作：Willeson，forhappiness<br></h2>
+<h4>
+    m召唤乐谱<br>
+    n关闭乐谱
+</h4>
+
+
+<audio class="play1" src="" autoplay controls style="width: 0px;height: 0px;opacity: 0"></audio>
+<audio class="play2" src="" autoplay controls style="width: 0px;height: 0px;opacity: 0"></audio>
+<audio class="play3" src="" autoplay controls style="width: 0px;height: 0px;opacity: 0"></audio>
+<audio class="play4" src="" autoplay controls style="width: 0px;height: 0px;opacity: 0"></audio>
+<audio class="play5" src="" autoplay controls style="width: 0px;height: 0px;opacity: 0"></audio>
+<audio class="play6" src="" autoplay controls style="width: 0px;height: 0px;opacity: 0"></audio>
+<audio class="play7" src="" autoplay controls style="width: 0px;height: 0px;opacity: 0"></audio>
+<audio class="play8" src="" autoplay controls style="width: 0px;height: 0px;opacity: 0"></audio>
+<audio class="play9" src="" autoplay controls style="width: 0px;height: 0px;opacity: 0"></audio>
+<audio class="play10" src="" autoplay controls style="width: 0px;height: 0px;opacity: 0"></audio>
+<audio class="play11" src="" autoplay controls style="width: 0px;height: 0px;opacity: 0"></audio>
+<audio class="play12" src="" autoplay controls style="width: 0px;height: 0px;opacity: 0"></audio>
+<audio class="play13" src="" autoplay controls style="width: 0px;height: 0px;opacity: 0"></audio>
+<audio class="play14" src="" autoplay controls style="width: 0px;height: 0px;opacity: 0"></audio>
+<audio class="play15" src="" autoplay controls style="width: 0px;height: 0px;opacity: 0"></audio>
+<audio class="play16" src="" autoplay controls style="width: 0px;height: 0px;opacity: 0"></audio>
+<audio class="play17" src="" autoplay controls style="width: 0px;height: 0px;opacity: 0"></audio>
+<audio class="play18" src="" autoplay controls style="width: 0px;height: 0px;opacity: 0"></audio>
+<audio class="play19" src="" autoplay controls style="width: 0px;height: 0px;opacity: 0"></audio>
+<audio class="play20" src="" autoplay controls style="width: 0px;height: 0px;opacity: 0"></audio>
+<audio class="play21" src="" autoplay controls style="width: 0px;height: 0px;opacity: 0"></audio>
+
+<div id="piano-spectrum" style="width: 750px;height: 750px"></div>
+<div class="all">
+<div class="move1"></div>
+<div class="move2"></div>
+<div class="move3"></div>
+<div class="move4"></div>
+<div class="move5"></div>
+<div class="move6"></div>
+<div class="move7"></div>
+
+<div class="move8"></div>
+<div class="move9"></div>
+<div class="move10"></div>
+<div class="move11"></div>
+<div class="move12"></div>
+<div class="move13"></div>
+<div class="move14"></div>
+
+<div class="move15"></div>
+<div class="move16"></div>
+<div class="move17"></div>
+<div class="move18"></div>
+<div class="move19"></div>
+<div class="move20"></div>
+<div class="move21"></div>
+</div>
+<script src="js/piano.js"></script>
+</body>
+>>>>>>> 90aa415d7423075aa531a2e967ab06005ed41a0e
+</html>

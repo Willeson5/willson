@@ -1,0 +1,489 @@
+<<<<<<< HEAD
+.all{
+    position: absolute;
+    bottom: 0%;
+    left:6%;
+}
+.move1{
+    position: absolute;
+    width: 60px;
+    height: 200px;
+    box-shadow:15px 15px 50px;
+    transition: 0.5s;
+    bottom: 0px;
+    left: 100px;
+    background-color: black;
+    border-radius:10px 10px 0px 0px;
+
+
+}
+.move2{
+    position: absolute;
+    width: 60px;
+    height: 200px;
+    box-shadow:15px 15px 50px;
+    transition: 0.5s;
+    bottom: 0px;
+    left: 170px;
+    background-color: white;
+    border-radius:10px 10px 0px 0px;
+
+
+}
+.move3{
+    position: absolute;
+    width: 60px;
+    height: 200px;
+    box-shadow:15px 15px 50px;
+    transition: 0.5s;
+    bottom: 0px;
+    left: 240px;
+    border-radius:10px 10px 0px 0px;
+    background-color: black;
+
+}
+.move4{
+    position: absolute;
+    width: 60px;
+    height: 200px;
+    box-shadow:15px 15px 50px;
+    transition: 0.5s;
+    bottom: 0px;
+    left: 310px;
+    border-radius:10px 10px 0px 0px;
+    background-color: white;
+}
+.move5{
+    position: absolute;
+    width: 60px;
+    height: 200px;
+    box-shadow:15px 15px 50px;
+    transition: 0.5s;
+    bottom: 0px;
+    left: 380px;
+    border-radius:10px 10px 0px 0px;
+    background-color: black;
+}
+.move6{
+    position: absolute;
+    width: 60px;
+    height: 200px;
+    box-shadow:15px 15px 50px;
+    transition: 0.5s;
+    bottom: 0px;
+    left: 450px;
+    border-radius:10px 10px 0px 0px;
+    background-color: white;
+}
+.move7{
+    position: absolute;
+    width: 60px;
+    height: 200px;
+    box-shadow:15px 15px 50px;
+    transition: 0.5s;
+    bottom: 0px;
+    left: 520px;
+    border-radius:10px 10px 0px 0px;
+    background-color: black;
+}
+.move8{
+    position: absolute;
+    width: 60px;
+    height: 200px;
+    box-shadow:15px 15px 50px;
+    transition: 0.5s;
+    bottom: 0px;
+    left: 590px;
+    border-radius:10px 10px 0px 0px;
+    background-color: white;
+}
+.move9{
+    position: absolute;
+    width: 60px;
+    height: 200px;
+    box-shadow:15px 15px 50px;
+    transition: 0.5s;
+    bottom: 0px;
+    left: 660px;
+    border-radius:10px 10px 0px 0px;
+    background-color: black;
+}
+.move10{
+    position: absolute;
+    width: 60px;
+    height: 200px;
+    box-shadow:15px 15px 50px;
+    transition: 0.5s;
+    bottom: 0px;
+    left: 730px;
+    border-radius:10px 10px 0px 0px;
+    background-color: white;
+}
+.move11{
+    position: absolute;
+    width: 60px;
+    height: 200px;
+    box-shadow:15px 15px 50px;
+    transition: 0.5s;
+    bottom: 0px;
+    left: 800px;
+    border-radius:10px 10px 0px 0px;
+    background-color: black;
+}
+.move12{
+    position: absolute;
+    width: 60px;
+    height: 200px;
+    box-shadow:15px 15px 50px;
+    transition: 0.5s;
+    bottom: 0px;
+    left: 870px;
+    border-radius:10px 10px 0px 0px;
+    background-color: white;
+}
+.move13{
+    position: absolute;
+    width: 60px;
+    height: 200px;
+    box-shadow:15px 15px 50px;
+    transition: 0.5s;
+    bottom: 0px;
+    left: 940px;
+    border-radius:10px 10px 0px 0px;
+    background-color: black;
+}
+.move14{
+    position: absolute;
+    width: 60px;
+    height: 200px;
+    box-shadow:15px 15px 50px;
+    transition: 0.5s;
+    bottom: 0;
+    left: 1010px;
+    border-radius:10px 10px 0px 0px;
+    background-color: white;
+}
+
+/*下八度*/
+.move15{
+    position: absolute;
+    width: 60px;
+    height: 200px;
+    box-shadow:15px 15px 50px;
+    transition: 0.5s;
+    bottom: 0;
+    left: 1080px;
+    border-radius:10px 10px 0px 0px;
+    background-color: black;
+}
+.move16{
+    position: absolute;
+    width: 60px;
+    height: 200px;
+    box-shadow:15px 15px 50px;
+    transition: 0.5s;
+    bottom: 0;
+    left: 1150px;
+    border-radius:10px 10px 0px 0px;
+    background-color: white;
+}
+.move17{
+    position: absolute;
+    width: 60px;
+    height: 200px;
+    box-shadow:15px 15px 50px;
+    transition: 0.5s;
+    bottom: 0;
+    left: 1220px;
+    border-radius:10px 10px 0px 0px;
+    background-color: black;
+}
+.move18{
+    position: absolute;
+    width: 60px;
+    height: 200px;
+    box-shadow:15px 15px 50px;
+    transition: 0.5s;
+    bottom: 0;
+    left: 1290px;
+    border-radius:10px 10px 0px 0px;
+    background-color: white;
+}
+.move19{
+    position: absolute;
+    width: 60px;
+    height: 200px;
+    box-shadow:15px 15px 50px;
+    transition: 0.5s;
+    bottom: 0;
+    left: 1360px;
+    border-radius:10px 10px 0px 0px;
+    background-color: black;
+}
+.move20{
+    position: absolute;
+    width: 60px;
+    height: 200px;
+    box-shadow:15px 15px 50px;
+    transition: 0.5s;
+    bottom: 0;
+    left: 1430px;
+    border-radius:10px 10px 0px 0px;
+    background-color: white;
+}
+.move21{
+      position: absolute;
+      width: 60px;
+      height: 200px;
+      box-shadow:15px 15px 50px;
+      transition: 0.5s;
+      bottom: 0;
+      left: 1500px;
+      border-radius:10px 10px 0px 0px;
+      background-color: black;
+  }
+=======
+.all{
+    position: absolute;
+    bottom: 0%;
+    left:6%;
+}
+.move1{
+    position: absolute;
+    width: 60px;
+    height: 200px;
+    box-shadow:15px 15px 50px;
+    transition: 0.5s;
+    bottom: 0px;
+    left: 100px;
+    background-color: black;
+    border-radius:10px 10px 0px 0px;
+
+
+}
+.move2{
+    position: absolute;
+    width: 60px;
+    height: 200px;
+    box-shadow:15px 15px 50px;
+    transition: 0.5s;
+    bottom: 0px;
+    left: 170px;
+    background-color: white;
+    border-radius:10px 10px 0px 0px;
+
+
+}
+.move3{
+    position: absolute;
+    width: 60px;
+    height: 200px;
+    box-shadow:15px 15px 50px;
+    transition: 0.5s;
+    bottom: 0px;
+    left: 240px;
+    border-radius:10px 10px 0px 0px;
+    background-color: black;
+
+}
+.move4{
+    position: absolute;
+    width: 60px;
+    height: 200px;
+    box-shadow:15px 15px 50px;
+    transition: 0.5s;
+    bottom: 0px;
+    left: 310px;
+    border-radius:10px 10px 0px 0px;
+    background-color: white;
+}
+.move5{
+    position: absolute;
+    width: 60px;
+    height: 200px;
+    box-shadow:15px 15px 50px;
+    transition: 0.5s;
+    bottom: 0px;
+    left: 380px;
+    border-radius:10px 10px 0px 0px;
+    background-color: black;
+}
+.move6{
+    position: absolute;
+    width: 60px;
+    height: 200px;
+    box-shadow:15px 15px 50px;
+    transition: 0.5s;
+    bottom: 0px;
+    left: 450px;
+    border-radius:10px 10px 0px 0px;
+    background-color: white;
+}
+.move7{
+    position: absolute;
+    width: 60px;
+    height: 200px;
+    box-shadow:15px 15px 50px;
+    transition: 0.5s;
+    bottom: 0px;
+    left: 520px;
+    border-radius:10px 10px 0px 0px;
+    background-color: black;
+}
+.move8{
+    position: absolute;
+    width: 60px;
+    height: 200px;
+    box-shadow:15px 15px 50px;
+    transition: 0.5s;
+    bottom: 0px;
+    left: 590px;
+    border-radius:10px 10px 0px 0px;
+    background-color: white;
+}
+.move9{
+    position: absolute;
+    width: 60px;
+    height: 200px;
+    box-shadow:15px 15px 50px;
+    transition: 0.5s;
+    bottom: 0px;
+    left: 660px;
+    border-radius:10px 10px 0px 0px;
+    background-color: black;
+}
+.move10{
+    position: absolute;
+    width: 60px;
+    height: 200px;
+    box-shadow:15px 15px 50px;
+    transition: 0.5s;
+    bottom: 0px;
+    left: 730px;
+    border-radius:10px 10px 0px 0px;
+    background-color: white;
+}
+.move11{
+    position: absolute;
+    width: 60px;
+    height: 200px;
+    box-shadow:15px 15px 50px;
+    transition: 0.5s;
+    bottom: 0px;
+    left: 800px;
+    border-radius:10px 10px 0px 0px;
+    background-color: black;
+}
+.move12{
+    position: absolute;
+    width: 60px;
+    height: 200px;
+    box-shadow:15px 15px 50px;
+    transition: 0.5s;
+    bottom: 0px;
+    left: 870px;
+    border-radius:10px 10px 0px 0px;
+    background-color: white;
+}
+.move13{
+    position: absolute;
+    width: 60px;
+    height: 200px;
+    box-shadow:15px 15px 50px;
+    transition: 0.5s;
+    bottom: 0px;
+    left: 940px;
+    border-radius:10px 10px 0px 0px;
+    background-color: black;
+}
+.move14{
+    position: absolute;
+    width: 60px;
+    height: 200px;
+    box-shadow:15px 15px 50px;
+    transition: 0.5s;
+    bottom: 0;
+    left: 1010px;
+    border-radius:10px 10px 0px 0px;
+    background-color: white;
+}
+
+/*下八度*/
+.move15{
+    position: absolute;
+    width: 60px;
+    height: 200px;
+    box-shadow:15px 15px 50px;
+    transition: 0.5s;
+    bottom: 0;
+    left: 1080px;
+    border-radius:10px 10px 0px 0px;
+    background-color: black;
+}
+.move16{
+    position: absolute;
+    width: 60px;
+    height: 200px;
+    box-shadow:15px 15px 50px;
+    transition: 0.5s;
+    bottom: 0;
+    left: 1150px;
+    border-radius:10px 10px 0px 0px;
+    background-color: white;
+}
+.move17{
+    position: absolute;
+    width: 60px;
+    height: 200px;
+    box-shadow:15px 15px 50px;
+    transition: 0.5s;
+    bottom: 0;
+    left: 1220px;
+    border-radius:10px 10px 0px 0px;
+    background-color: black;
+}
+.move18{
+    position: absolute;
+    width: 60px;
+    height: 200px;
+    box-shadow:15px 15px 50px;
+    transition: 0.5s;
+    bottom: 0;
+    left: 1290px;
+    border-radius:10px 10px 0px 0px;
+    background-color: white;
+}
+.move19{
+    position: absolute;
+    width: 60px;
+    height: 200px;
+    box-shadow:15px 15px 50px;
+    transition: 0.5s;
+    bottom: 0;
+    left: 1360px;
+    border-radius:10px 10px 0px 0px;
+    background-color: black;
+}
+.move20{
+    position: absolute;
+    width: 60px;
+    height: 200px;
+    box-shadow:15px 15px 50px;
+    transition: 0.5s;
+    bottom: 0;
+    left: 1430px;
+    border-radius:10px 10px 0px 0px;
+    background-color: white;
+}
+.move21{
+      position: absolute;
+      width: 60px;
+      height: 200px;
+      box-shadow:15px 15px 50px;
+      transition: 0.5s;
+      bottom: 0;
+      left: 1500px;
+      border-radius:10px 10px 0px 0px;
+      background-color: black;
+  }
+>>>>>>> 90aa415d7423075aa531a2e967ab06005ed41a0e

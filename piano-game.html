@@ -87,7 +87,12 @@
         h2{
             opacity: 1;
         }
+        .play{
+            opacity: 0;
+            width: 0px;
+            height: 0px;
 
+        }
 
 
     </style>
@@ -127,7 +132,7 @@
     无可奈何花落去
 </p>
 
-<audio class="play" src="audio/中山真斗%20-%20手つかずの感情.mp3" autoplay controls style="width: 0px;height: 0px;opacity: 0"></audio>
+<audio class="play" src="audio/中山真斗%20-%20手つかずの感情.mp3" autoplay></audio>
 <audio class="play1" src="" autoplay controls style="width: 0px;height: 0px;opacity: 0"></audio>
 <audio class="play2" src="" autoplay controls style="width: 0px;height: 0px;opacity: 0"></audio>
 <audio class="play3" src="" autoplay controls style="width: 0px;height: 0px;opacity: 0"></audio>
@@ -151,7 +156,7 @@
 <audio class="play21" src="" autoplay controls style="width: 0px;height: 0px;opacity: 0"></audio>
 <p class="Classic_lines">秒速5厘米，那是樱花飘落的速度，那么怎样的速度，才能走完我与你之间的距离?</p>
 <button class="change">forest</button>
-<div id="piano-spectrum" style="width: 750px;height: 750px"></div>
+<div id="piano-spectrum" style="width:750px;height: 750px"></div>
 <div class="all">
 <div class="move1"></div>
 <div class="move2"></div>
@@ -183,7 +188,7 @@
     $(document).ready(function (event) {
     $(".Classic_lines").animate({
         "opacity":"2"
-    },10000);
+    },5000);
     $(".Classic_lines").animate({
         "opacity":"0"
     },1000)
@@ -221,6 +226,7 @@ $(document).ready(function () {
 
 </script>
 </div>
+
 </body>
 
 </html>

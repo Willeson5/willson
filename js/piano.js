@@ -30,24 +30,47 @@ $(document).keydown(function (event) {
     }
 });
 //a键
+// $(document).keydown(function (event) {
+//     console.log(event.keyCode);
+//     if (event.keyCode==65) {
+//         $('.play1').attr('src', "audio/40-C%20%20-小字1组.mp3");
+//         $(".move1").css({
+//             "opacity":"1",
+//             "height":"180px",
+//             "box-shadow":"5px 5px 15px",
+//             "width":"55px"
+//         })
+//     }else{
+//         $(".move1").css({
+//             "height":"200px",
+//             "box-shadow":"15px 15px 15px",
+//             "width":"60px"
+//         })
+//     }
+// });
+//a键
 $(document).keydown(function (event) {
     console.log(event.keyCode);
     if (event.keyCode==65) {
         $('.play1').attr('src', "audio/40-C%20%20-小字1组.mp3");
         $(".move1").css({
-            "opacity":"1",
-            "height":"180px",
-            "box-shadow":"5px 5px 15px",
-            "width":"55px"
+            "opacity": "1",
+            "height": "180px",
+            "box-shadow": "5px 5px 15px",
+            "width": "55px"
         })
-    }else{
+    }
+});
+$(document).keyup(function (event) {
+    console.log(event.keyCode);
+    if (event.keyCode==65) {
         $(".move1").css({
             "height":"200px",
             "box-shadow":"15px 15px 15px",
             "width":"60px"
         })
-    }
-});
+    }});
+
 //s键
 $(document).keydown(function (event) {
     console.log(event.keyCode);
@@ -59,16 +82,17 @@ $(document).keydown(function (event) {
             "box-shadow":"5px 5px 15px",
             "width":"55px"
         })
-    }else {
+    }
+});
+$(document).keyup(function (event) {
+    console.log(event.keyCode);
+    if (event.keyCode==83 || event.keyCode==115) {
         $(".move2").css({
             "height":"200px",
             "box-shadow":"15px 15px 15px",
             "width":"60px"
-
         })
-    }
-
-});
+    }});
 //d键
 $(document).keydown(function (event) {
     console.log(event.keyCode);
@@ -80,14 +104,16 @@ $(document).keydown(function (event) {
             "box-shadow":"5px 5px 15px",
             "width":"55px"
         })
-    }else {
+    }});
+$(document).keyup(function (event) {
+    console.log(event.keyCode);
+    if (event.keyCode==68 || event.keyCode==68) {
         $(".move3").css({
             "height":"200px",
             "box-shadow":"15px 15px 15px",
             "width":"60px"
         })
-    }
-});
+    }});
 //f键
 $(document).keydown(function (event) {
     console.log(event.keyCode);
@@ -99,14 +125,17 @@ $(document).keydown(function (event) {
             "box-shadow":"5px 5px 15px",
             "width":"55px"
         })
-    }else {
+    }
+});
+$(document).keyup(function (event) {
+    console.log(event.keyCode);
+    if (event.keyCode==70) {
         $(".move4").css({
             "height":"200px",
             "box-shadow":"15px 15px 15px",
             "width":"60px"
         })
-    }
-});
+    }});
 //q键
 $(document).keydown(function (event) {
     console.log(event.keyCode);
@@ -118,14 +147,17 @@ $(document).keydown(function (event) {
             "box-shadow":"5px 5px 15px",
             "width":"55px"
         })
-    }else {
+    }
+});
+$(document).keyup(function (event) {
+    console.log(event.keyCode);
+    if (event.keyCode==81) {
         $(".move5").css({
             "height":"200px",
             "box-shadow":"15px 15px 15px",
             "width":"60px"
         })
-    }
-});
+    }});
 //w键
 $(document).keydown(function (event) {
     console.log(event.keyCode);
@@ -137,14 +169,17 @@ $(document).keydown(function (event) {
             "box-shadow":"5px 5px 15px",
             "width":"55px"
         })
-    }else {
+    }
+});
+$(document).keyup(function (event) {
+    console.log(event.keyCode);
+    if (event.keyCode==87) {
         $(".move6").css({
             "height":"200px",
             "box-shadow":"15px 15px 15px",
             "width":"60px"
         })
-    }
-});
+    }});
 //w键
 $(document).keydown(function (event) {
     console.log(event.keyCode);
@@ -155,15 +190,17 @@ $(document).keydown(function (event) {
             "height":"180px",
             "box-shadow":"5px 5px 15px",
             "width":"55px"
-        })
-    }else {
+        })}
+});
+$(document).keyup(function (event) {
+    console.log(event.keyCode);
+    if (event.keyCode==69) {
         $(".move7").css({
             "height":"200px",
             "box-shadow":"15px 15px 15px",
             "width":"60px"
         })
-    }
-});
+    }});
 //j键
 $(document).keydown(function (event) {
     console.log(event.keyCode);
@@ -175,14 +212,17 @@ $(document).keydown(function (event) {
             "box-shadow":"5px 5px 15px",
             "width":"55px"
         })
-    }else {
+    }
+});
+$(document).keyup(function (event) {
+    console.log(event.keyCode);
+    if (event.keyCode==74) {
         $(".move8").css({
             "height":"200px",
             "box-shadow":"15px 15px 15px",
             "width":"60px"
         })
-    }
-});
+    }});
 //k键
 $(document).keydown(function (event) {
     console.log(event.keyCode);
@@ -193,15 +233,17 @@ $(document).keydown(function (event) {
             "height":"180px",
             "box-shadow":"5px 5px 15px",
             "width":"55px"
-        })
-    }else {
+        })}
+});
+$(document).keyup(function (event) {
+    console.log(event.keyCode);
+    if (event.keyCode==75) {
         $(".move9").css({
             "height":"200px",
             "box-shadow":"15px 15px 15px",
             "width":"60px"
         })
-    }
-});
+    }});
 //l键
 $(document).keydown(function (event) {
     console.log(event.keyCode);
@@ -212,15 +254,17 @@ $(document).keydown(function (event) {
             "height":"180px",
             "box-shadow":"5px 5px 15px",
             "width":"55px"
-        })
-    }else {
+        })}
+});
+$(document).keyup(function (event) {
+    console.log(event.keyCode);
+    if (event.keyCode==76) {
         $(".move10").css({
             "height":"200px",
             "box-shadow":"15px 15px 15px",
             "width":"60px"
         })
-    }
-});
+    }});
 //;键
 $(document).keydown(function (event) {
     console.log(event.keyCode);
@@ -231,15 +275,17 @@ $(document).keydown(function (event) {
             "height":"180px",
             "box-shadow":"5px 5px 15px",
             "width":"55px"
-        })
-    }else {
+        })}
+});
+$(document).keyup(function (event) {
+    console.log(event.keyCode);
+    if (event.keyCode==186) {
         $(".move11").css({
             "height":"200px",
             "box-shadow":"15px 15px 15px",
             "width":"60px"
         })
-    }
-});
+    }});
 //u键
 $(document).keydown(function (event) {
     console.log(event.keyCode);
@@ -250,15 +296,17 @@ $(document).keydown(function (event) {
             "height":"180px",
             "box-shadow":"5px 5px 15px",
             "width":"55px"
-        })
-    }else {
+        })}
+});
+$(document).keyup(function (event) {
+    console.log(event.keyCode);
+    if (event.keyCode==85) {
         $(".move12").css({
             "height":"200px",
             "box-shadow":"15px 15px 15px",
             "width":"60px"
         })
-    }
-});
+    }});
 //i键
 $(document).keydown(function (event) {
     console.log(event.keyCode);
@@ -270,14 +318,17 @@ $(document).keydown(function (event) {
             "box-shadow":"5px 5px 15px",
             "width":"55px"
         })
-    }else {
+    }
+});
+$(document).keyup(function (event) {
+    console.log(event.keyCode);
+    if (event.keyCode==73) {
         $(".move13").css({
             "height":"200px",
             "box-shadow":"15px 15px 15px",
             "width":"60px"
         })
-    }
-});
+    }});
 //o键
 $(document).keydown(function (event) {
     console.log(event.keyCode);
@@ -288,15 +339,17 @@ $(document).keydown(function (event) {
             "height":"180px",
             "box-shadow":"5px 5px 15px",
             "width":"55px"
-        })
-    }else {
+        })}
+});
+$(document).keyup(function (event) {
+    console.log(event.keyCode);
+    if (event.keyCode==79) {
         $(".move14").css({
             "height":"200px",
             "box-shadow":"15px 15px 15px",
             "width":"60px"
         })
-    }
-});
+    }});
 //1键
         $(document).keydown(function (event) {
         console.log(event.keyCode);
@@ -308,14 +361,17 @@ $(document).keydown(function (event) {
                 "box-shadow":"5px 5px 15px",
                 "width":"55px"
             })
-        }else {
-            $(".move15").css({
-                "height":"200px",
-                "box-shadow":"15px 15px 15px",
-                "width":"60px"
-            })
         }
     });
+$(document).keyup(function (event) {
+    console.log(event.keyCode);
+    if (event.keyCode==97) {
+        $(".move15").css({
+            "height":"200px",
+            "box-shadow":"15px 15px 15px",
+            "width":"60px"
+        })
+    }});
 //2键
 $(document).keydown(function (event) {
     console.log(event.keyCode);
@@ -327,14 +383,17 @@ $(document).keydown(function (event) {
             "box-shadow":"5px 5px 15px",
             "width":"55px"
         })
-    }else {
+    }
+});
+$(document).keyup(function (event) {
+    console.log(event.keyCode);
+    if (event.keyCode==98) {
         $(".move16").css({
             "height":"200px",
             "box-shadow":"15px 15px 15px",
             "width":"60px"
         })
-    }
-});
+    }});
 //3键
 $(document).keydown(function (event) {
     console.log(event.keyCode);
@@ -346,14 +405,17 @@ $(document).keydown(function (event) {
             "box-shadow":"5px 5px 15px",
             "width":"55px"
         })
-    }else {
+    }
+});
+$(document).keyup(function (event) {
+    console.log(event.keyCode);
+    if (event.keyCode==99) {
         $(".move17").css({
             "height":"200px",
             "box-shadow":"15px 15px 15px",
             "width":"60px"
         })
-    }
-});
+    }});
 //4键
 $(document).keydown(function (event) {
     console.log(event.keyCode);
@@ -365,14 +427,17 @@ $(document).keydown(function (event) {
             "box-shadow":"5px 5px 15px",
             "width":"55px"
         })
-    }else {
+    }
+});
+$(document).keyup(function (event) {
+    console.log(event.keyCode);
+    if (event.keyCode==100) {
         $(".move18").css({
             "height":"200px",
             "box-shadow":"15px 15px 15px",
             "width":"60px"
         })
-    }
-});
+    }});
 //5键
 $(document).keydown(function (event) {
     console.log(event.keyCode);
@@ -384,14 +449,17 @@ $(document).keydown(function (event) {
             "box-shadow":"5px 5px 15px",
             "width":"55px"
         })
-    }else {
+    }
+});
+$(document).keyup(function (event) {
+    console.log(event.keyCode);
+    if (event.keyCode==101) {
         $(".move19").css({
             "height":"200px",
             "box-shadow":"15px 15px 15px",
             "width":"60px"
         })
-    }
-});
+    }});
 //6键
 $(document).keydown(function (event) {
     console.log(event.keyCode);
@@ -403,14 +471,17 @@ $(document).keydown(function (event) {
             "box-shadow":"5px 5px 15px",
             "width":"55px"
         })
-    }else {
+    }
+});
+$(document).keyup(function (event) {
+    console.log(event.keyCode);
+    if (event.keyCode==102) {
         $(".move20").css({
             "height":"200px",
             "box-shadow":"15px 15px 15px",
             "width":"60px"
         })
-    }
-});
+    }});
 //7键
 $(document).keydown(function (event) {
     console.log(event.keyCode);
@@ -421,13 +492,15 @@ $(document).keydown(function (event) {
             "height":"180px",
             "box-shadow":"5px 5px 15px",
             "width":"55px"
-        })
-    }else {
+        })}
+});
+$(document).keyup(function (event) {
+    console.log(event.keyCode);
+    if (event.keyCode==103) {
         $(".move21").css({
             "height":"200px",
             "box-shadow":"15px 15px 15px",
             "width":"60px"
         })
-    }
-});
+    }});
 

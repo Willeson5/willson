@@ -6,14 +6,17 @@
     opacity: 0;
     transition: 1s;
     /*display: none;*/
-
 }
+.all div{
+    transition: 0.2s;
+}
+
 .move1{
     position: absolute;
     width: 60px;
     height: 200px;
     box-shadow:15px 15px 50px;
-    transition: 0.5s;
+    transition: 0.2s;
     bottom: 0px;
     left: 100px;
     background-color: black;
@@ -24,7 +27,7 @@
     width: 60px;
     height: 200px;
     box-shadow:15px 15px 50px;
-    transition: 0.5s;
+    transition: 0.2s;
     bottom: 0px;
     left: 170px;
     background-color: white;
@@ -37,7 +40,7 @@
     width: 60px;
     height: 200px;
     box-shadow:15px 15px 50px;
-    transition: 0.5s;
+    transition: 0.2s;
     bottom: 0px;
     left: 240px;
     border-radius:10px 10px 0px 0px;
@@ -49,7 +52,7 @@
     width: 60px;
     height: 200px;
     box-shadow:15px 15px 50px;
-    transition: 0.5s;
+    transition: 0.2s;
     bottom: 0px;
     left: 310px;
     border-radius:10px 10px 0px 0px;
@@ -60,7 +63,7 @@
     width: 60px;
     height: 200px;
     box-shadow:15px 15px 50px;
-    transition: 0.5s;
+    transition: 0.2s;
     bottom: 0px;
     left: 380px;
     border-radius:10px 10px 0px 0px;
@@ -71,7 +74,7 @@
     width: 60px;
     height: 200px;
     box-shadow:15px 15px 50px;
-    transition: 0.5s;
+    transition: 0.2s;
     bottom: 0px;
     left: 450px;
     border-radius:10px 10px 0px 0px;

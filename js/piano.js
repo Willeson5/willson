@@ -1,4 +1,14 @@
-
+//p键召唤琴键
+$(document).keydown(function (event) {
+    console.log(event.keyCode);
+    if (event.keyCode==80){
+        $(".all").css({
+            // "display":"block"
+            "opacity":"1"
+        });
+        $(".play").attr('src',"");
+    }
+});
 
 
 //m键召唤乐谱

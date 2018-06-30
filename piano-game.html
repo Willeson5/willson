@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no" >
     <title>Title</title>
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/yinghua.js"></script>
     <link rel="stylesheet" type="text/css" href="css/yinghua.css">
     <link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/move.css">
-
     <style>
             *{
                 margin: 0%;
@@ -21,14 +21,26 @@
             h2{
                 position: absolute;
                 top:20%;
-                left: 5%;
+                left: 0%;
                 font-family: 华文行楷;
             }
             h4{
                 position: absolute;
                 top:28%;
-                left: 5%;
+                left: 0%;
                 font-family: 华文行楷;
+            }
+            #allabout{
+                width: 100%;
+                height: 100%;
+            }
+            #sao{
+                position: absolute;
+                top:16%;
+                left: 5%;
+                font-size: 3em;
+                font-family: 华文行楷;
+
             }
 
             #piano-spectrum{
@@ -42,13 +54,56 @@
                 opacity: 0.8;
             }
 
+        .Classic_lines{
+                   top:30%;
+                   left: 35%;
+                   width: 30%;
+                   height: 30%;
+                   position: absolute;
+                   font-size: 30px;
+                   font-family: 华文行楷;
+                   opacity: 0;
+                   transition: 5s;
+               }
+        .change{
+            font-family: 华文行楷;
+            color: white;
+            position: absolute;
+            width: 3%;
+            height: 3%;
+            right: 0%;
+            bottom: 0%;
+            background-color: #47acab;
+            border: none;
+            opacity: 0.8;
+            border-radius:10px 10px;
+        }
+        .change:hover{
+            opacity: 1;
+        }
+        .cherry_first{
+            display: block;
+        }
+        h2{
+            opacity: 1;
+        }
+
+
+
     </style>
+
 </head>
 <body>
+<div id="allabout">
+<div class="cherry_first">
 <div class="cherry">
-    <img id="yinghua" src="image/yinghua.png" alt="" >
-
+    <img id="yinghua" src="image/yinghua.png" alt="">
 </div>
+</div>
+<!--<div class="cherry">-->
+    <!--<img id="shuye" src="image/shuye.png" alt="">-->
+<!--</div>-->
+
 <script>
     $(function(){
         $('.cherry').Cherry_Blossoms({
@@ -61,14 +116,18 @@
         })
     })
 </script>
-<h2>简易钢琴小游戏<br>
-  参与制作：Willeson，forhappiness<br></h2>
+<h2>樱晴缘缺<br>
+  参与制作：Willson，forhappiness<br></h2>
 <h4>
     m召唤乐谱<br>
     n关闭乐谱
 </h4>
+<br>
+<p id="sao">
+    无可奈何花落去
+</p>
 
-
+<audio class="play" src="audio/中山真斗%20-%20手つかずの感情.mp3" autoplay controls style="width: 0px;height: 0px;opacity: 0"></audio>
 <audio class="play1" src="" autoplay controls style="width: 0px;height: 0px;opacity: 0"></audio>
 <audio class="play2" src="" autoplay controls style="width: 0px;height: 0px;opacity: 0"></audio>
 <audio class="play3" src="" autoplay controls style="width: 0px;height: 0px;opacity: 0"></audio>
@@ -90,7 +149,8 @@
 <audio class="play19" src="" autoplay controls style="width: 0px;height: 0px;opacity: 0"></audio>
 <audio class="play20" src="" autoplay controls style="width: 0px;height: 0px;opacity: 0"></audio>
 <audio class="play21" src="" autoplay controls style="width: 0px;height: 0px;opacity: 0"></audio>
-
+<p class="Classic_lines">秒速5厘米，那是樱花飘落的速度，那么怎样的速度，才能走完我与你之间的距离?</p>
+<button class="change">forest</button>
 <div id="piano-spectrum" style="width: 750px;height: 750px"></div>
 <div class="all">
 <div class="move1"></div>
@@ -118,6 +178,49 @@
 <div class="move21"></div>
 </div>
 <script src="js/piano.js"></script>
+<script>
+    //文字浮现后消失
+    $(document).ready(function (event) {
+    $(".Classic_lines").animate({
+        "opacity":"2"
+    },10000);
+    $(".Classic_lines").animate({
+        "opacity":"0"
+    },1000)
+});
+    $(".change").click(function (event) {
+        $("body").css({'background-image':"url('image/forest.jpg')"});
+        $("#sao").html("树欲静而风不止,叶飘零而风依行");
+        $(".play").attr('src',"audio/中山真斗%20-%20どれだけ希望を持ったのか.mp3");
+        $(".cherry_first").css({'display':'none'});//樱花消失
+//            $(document).ready(function () {
+//        $("img").attr('src','image/shuye.png');
+//    });
+});
+    //页面加载五秒后自动隐藏作者信息
+//$(document).ready(function () {
+    //    $("h2").animate({
+    //    "opacity":"0"
+    //    },5000)
+    //});
+
+$(document).ready(function () {
+   $('h2').animate({
+       "opacity":"1",
+       "left":"5%"
+   },1000)
+});
+//文字右移
+$(document).ready(function () {
+    $("h4").animate({
+       "left":"5%"
+    },1500)
+    });
+
+
+
+</script>
+</div>
 </body>
 
 </html>
